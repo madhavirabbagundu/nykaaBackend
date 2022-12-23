@@ -1,5 +1,5 @@
 const express = require("express")
-const { AuthReq, figAuth, AuthLog} = require("../Handlers/users")
+const { AuthReq, figAuth, AuthLog} = require("../handlers/users")
 
 const Auth = express.Router()
 
