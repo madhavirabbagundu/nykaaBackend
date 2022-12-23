@@ -1,4 +1,4 @@
-const AuthSchema = require("../Database/users");
+const AuthSchema = require("../database/users");
 const jwt = require("jsonwebtoken");
 const SECRET = "ThisWouldBeTheBestNYKAAclone"
 

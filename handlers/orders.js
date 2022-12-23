@@ -1,4 +1,4 @@
-const { Order } = require('../Database/orders');
+const { Order } = require('../database/orders');
 const jwt = require('jsonwebtoken');
 const randomstring = require('randomstring');
 var dateTime = require('node-datetime');

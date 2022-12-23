@@ -1,4 +1,4 @@
-const Products=require("../Database/product")
+const Products=require("../database/product")
 
 async function createProduct(req, res, next) {
     let {product} = req.body;
