@@ -4,6 +4,7 @@ const  connectDB  = require('./database');
 const orderRouter = require('./routes/orders');
 const Auth = require('./routes/users');
 const productRouter = require('./routes/products');
+const addressRouter = require('./routes/address')
 
 
 const app = express();
